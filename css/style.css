@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav__bar{
+    width: 100%;
+    background-color: black;
+}
+
+.img__header{
+    width: 100%;
+}
+
+.container__img{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.text__on{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.contact{
+    width: 100%;
+    background-color: black;
+}
+
+.list__privacy ol{
+    display: inline;
+   margin: 0 10px 0 0;
+    padding: 2px 7px 2px 7px;
+   border: 1px solid #ccc;
+}
