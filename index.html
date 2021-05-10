@@ -14,9 +14,15 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="assets/icons/icons8-iron-man.svg" />
+
+    <!-- Font-awesome icons -->
+    <script src="https://kit.fontawesome.com/764c90c9d0.js" crossorigin="anonymous"></script>
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navbar -->
@@ -24,12 +30,21 @@
       <li class="nav-item">
         <a class="nav-link active" href=""
           ><img
-            class="w-25 h-25 p-25"
+            class="size__navbar"
             src="assets/icons/Marvel_Logo.svg"
             alt="icon-marvel"
-        /></a>
+          />
+          <img class="ml-5" src="assets/icons/icons8-iron-man.svg" alt="" />
+        </a>
       </li>
     </ul>
+
+    <!-- Gif end -->
+    <div class="grid-container">
+      <div>
+        <img src="assets/img/tenor.gif" class="gif__iron-man" alt="gif" />
+      </div>
+    </div>
 
     <main>
       <section class="header">
@@ -39,7 +54,7 @@
               <div class="container__img">
                 <div class="col-12">
                   <img
-                    class="img__header mt-5"
+                    class="img__header mt-1"
                     src="assets/img/iron-man-head.png"
                     alt="iron__man"
                   />
@@ -51,7 +66,7 @@
         </header>
       </section>
 
-      <section class="info mt-5">
+      <section class="info mt-3">
         <h3 class="text-center">
           El inventor Tony Stark aplica su genio para las soluciones de alta
           tecnología a problemas como Iron Man, el Avenger blindado.
@@ -73,8 +88,17 @@
                         src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/002irm_com_pwr_01_050218_a_xl.jpg"
                         class="d-block w-100"
                         alt="iron__man__comic"
-                        />
-                        <a href="https://www.marvel.com/characters/iron-man-tony-stark" target="_blank"><button type="button" class="btn btn-outline-danger btn-lg m-2 zoom">Comics</button></a>
+                      />
+                      <a
+                        href="https://www.marvel.com/characters/iron-man-tony-stark"
+                        target="_blank"
+                        ><button
+                          type="button"
+                          class="btn btn-outline-danger btn-lg m-2 zoom"
+                        >
+                          Comics
+                        </button></a
+                      >
                     </div>
                     <div class="carousel-item">
                       <img
@@ -82,7 +106,16 @@
                         class="d-block w-100"
                         alt="iron__man__comic-2"
                       />
-                      <a href="https://www.marvel.com/characters/iron-man-tony-stark" target="_blank"><button type="button" class="btn btn-outline-danger btn-lg m-2 zoom">Character</button></a>
+                      <a
+                        href="https://www.marvel.com/characters/iron-man-tony-stark"
+                        target="_blank"
+                        ><button
+                          type="button"
+                          class="btn btn-outline-danger btn-lg m-2 zoom"
+                        >
+                          Character
+                        </button></a
+                      >
                     </div>
                     <div class="carousel-item">
                       <img
@@ -90,7 +123,16 @@
                         class="d-block w-100"
                         alt="iron__man__comic-2"
                       />
-                      <a href="https://www.marvel.com/characters/iron-man-tony-stark" target="_blank"><button type="button" class="btn btn-outline-danger btn-lg m-2 zoom">Overview</button></a>
+                      <a
+                        href="https://www.marvel.com/characters/iron-man-tony-stark"
+                        target="_blank"
+                        ><button
+                          type="button"
+                          class="btn btn-outline-danger btn-lg m-2 zoom"
+                        >
+                          Overview
+                        </button></a
+                      >
                     </div>
                   </div>
                   <a
@@ -126,22 +168,38 @@
     </main>
 
     <footer class="contact">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 text-center">
-            <img
-              class="w-25 h-25 mt-5"
-              src="assets/icons/Marvel_Logo.svg"
-              alt="marvel__icon"
-            />
-            <nav class="list__privacy text-white mt-4">
-              <ol>Terms of Use</ol>
-              <ol>Privacy Policy</ol>
-              <ol>License Agreement</ol>
-              <ol>©2021 Gonzalo Lamas</ol>
-          </nav>
-          </div>
+      <div class="container__footer">
+        <div class="marvel__icon">
+          <img
+          class="icon__footer"
+          src="assets/icons/avengers.svg"
+          alt="marvel__icon"
+        />
         </div>
+
+        <div class="icons__contacts">
+          <a href="https://github.com/gonzalolamas" target="_blank"><i class="fab fa-4x fa-github text-white" ></i></a>
+          <a href="https://www.linkedin.com/in/gonzalo-lamas/" target="_blank"><i class="fab fa-4x fa-linkedin text-white" ></i></a>
+        </div>
+        
+        <div class="terms-licenses">
+          <nav class="list__privacy text-white">
+            <ol>
+              Terms of Use
+            </ol>
+            <ol>
+              Privacy Policy
+            </ol>
+            <ol>
+              License Agreement
+            </ol>
+            <ol>
+              ©2021 Gonzalo Lamas
+            </ol>
+          </nav>
+        </div>
+
+
       </div>
     </footer>
 
